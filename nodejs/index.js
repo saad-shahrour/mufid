@@ -1,15 +1,3 @@
-// const express = require('express');
-// const app = express();
-// const port = 3001; // Use any available port that doesn't conflict with your Next.js app
-
-// // Define your Node.js routes and functionality here
-
-// app.listen(port, () => {
-//   console.log(`Node.js server is running on http://localhost:${port}`);
-// });
-
-
-
 import express from "express";
 import cors from 'cors';
 import fetch from "node-fetch";
