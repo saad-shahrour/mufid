@@ -1,0 +1,46 @@
+.container {
+    direction: rtl;
+    
+    .slider {
+        position: relative;
+        overflow: hidden;
+        margin-left: 50%;
+        margin: auto;
+        margin-top: 75px;
+
+        .textContainer {
+            display: flex;  
+            text-align: center;
+            transition: all 1s;
+            overflow: visible !important;
+            @media only screen and (max-width: 768px) {
+                
+            }
+    
+        }
+    
+        .icons {
+            position: absolute;
+            left: 50%;
+            bottom: 100px;
+            width: fit-content;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 50px;
+            
+            .icon {
+                width: 35px;
+                height: 35px;
+                border: 1px solid #999;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+    
+        }
+    
+        
+    }
+
+}
